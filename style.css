@@ -103,13 +103,13 @@ hr {
     margin: 20px 0;
 }
 
-.right h2 {
+.header h2 {
     font-size: 18px;
     color: #8b0035;
     margin-top: 15px;
 }
 
-.right h3 {
+.header h3 {
     font-size: 20px;
     color: #333;
     margin-top: 10px;
