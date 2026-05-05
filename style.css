@@ -1,44 +1,80 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background: #f4f6f8;
 }
 
-/* Header Container */ 
-.header {
+.container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 50px;
-    background: linear-gradient(135deg, #8b0035, #5c0a4d);
+}
+
+/* LEFT SIDEBAR */
+.sidebar {
+    width: 30%;
+    background: #1f2a40;
     color: white;
+    padding: 30px;
 }
 
-/* Left Section */
-.header-left {
-    max-width: 70%;
-}
-
-.header-left h1 {
+.sidebar h1 {
     margin: 0;
-    font-size: 42px;
-    letter-spacing: 1px;
+    font-size: 26px;
 }
 
-/* Contact Info */
-.info {
-    margin-top: 15px;
+.role {
+    color: #00d4ff;
+    margin-bottom: 20px;
 }
 
-.info p {
-    margin: 8px 0;
-    font-size: 18px;
+.section {
+    margin-top: 25px;
 }
 
-/* Right Section (Profile Image) */
-.header-right img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 6px solid white;
-    object-fit: cover;
+.section h3 {
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+.section h4 {
+    margin: 10px 0 5px;
+    color: #00d4ff;
+}
+
+.section ul {
+    padding-left: 15px;
+}
+
+.section li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* RIGHT CONTENT */
+.main {
+    width: 70%;
+    padding: 30px;
+    background: white;
+}
+
+.main h2 {
+    color: #1f2a40;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.main h3 {
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 14px;
+    color: gray;
+}
+
+.main ul {
+    margin-top: 5px;
+}
+
+.main li {
+    margin: 5px 0;
 }
