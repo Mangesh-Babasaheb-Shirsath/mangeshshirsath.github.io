@@ -1,28 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Resume Header</title>
-    <link rel="stylesheet" href="style.css">
-</head> 
+<meta charset="UTF-8">
+<title>Mangesh Shirsath | Embedded Software Engineer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
 <body>
 
-<div class="header">
-    <div class="header-left">
-        <h1>MANGESH BABASAHEB SHIRSATH</h1>
+<div class="container">
 
-        <div class="info">
+    <!-- LEFT PANEL -->
+    <div class="sidebar">
+        <h1>Mangesh Shirsath</h1>
+        <p class="role">Embedded Software Engineer</p>
+
+        <div class="section">
+            <h3>Contact</h3>
             <p>📧 mangeshshirsath18@gmail.com</p>
-            <p>📞 9657620149</p>
-            <p>🟢 9657620149 - Whatsapp</p>
-            <p>🔗 LinkedIn</p>
-            <p>🏠 Krishna-kunj, Behind ZP school, Mahalunge, Tal. Mulshi, Pune - 411045</p>
+            <p>📞 +91 9657620149</p>
+            <p>📍 Pune, India</p>
+        </div>
+
+        <div class="section">
+            <h3>Core Skills</h3>
+
+            <h4>Embedded</h4>
+            <ul>
+                <li>Embedded C</li>
+                <li>Low-Level Drivers</li>
+                <li>Interrupt Handling</li>
+                <li>Bootloader (Flash, CRC)</li>
+                <li>HAL / Device Drivers</li>
+                <li>AUTOSAR Basics</li>
+            </ul>
+
+            <h4>RTOS</h4>
+            <ul>
+                <li>FreeRTOS</li>
+                <li>Task Scheduling</li>
+                <li>Queues & Sync</li>
+                <li>Watchdog</li>
+            </ul>
+
+            <h4>Communication</h4>
+            <ul>
+                <li>CAN, UDS</li>
+                <li>SPI, I2C, UART</li>
+            </ul>
+
+            <h4>Microcontrollers</h4>
+            <ul>
+                <li>ARM Cortex M4/M7</li>
+                <li>NXP Controllers</li>
+            </ul>
+
+            <h4>Tools</h4>
+            <ul>
+                <li>IAR, Keil, STM32CubeIDE</li>
+                <li>Vector CANoe</li>
+                <li>Oscilloscope, Logic Analyzer</li>
+            </ul>
         </div>
     </div>
 
-    <div class="header-right">
-        <img src="profile.jpg" alt="Profile Photo">
+    <!-- RIGHT CONTENT -->
+    <div class="main">
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                Embedded Software Engineer with 5+ years of experience in automotive and embedded systems,
+                specializing in base software development, CAN communication, bootloader design, and RTOS-based architecture.
+                Strong expertise in microcontroller programming, memory management, and real-time systems.
+                Experienced in BMS systems, ECU validation, and production-grade firmware.
+            </p>
+        </section>
+
+        <section>
+            <h2>Key Projects</h2>
+
+            <h3>Custom CAN Bootloader</h3>
+            <ul>
+                <li>Secure firmware update using CAN</li>
+                <li>Flash partitioning, CRC validation</li>
+                <li>Fail-safe rollback mechanism</li>
+            </ul>
+
+            <h3>Battery Management System (BMS)</h3>
+            <ul>
+                <li>RTOS-based architecture</li>
+                <li>Real-time monitoring and protection</li>
+                <li>Fault handling and optimization</li>
+            </ul>
+
+            <h3>OTA Firmware Update</h3>
+            <ul>
+                <li>Remote update using GSM/GPRS</li>
+                <li>Error handling and validation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <h3>CG Power | Pune</h3>
+            <p class="date">Apr 2025 – Present</p>
+            <ul>
+                <li>Developed CAN-based bootloader with Python GUI flashing support</li>
+                <li>Implemented flash memory management with wear leveling</li>
+                <li>Designed communication protocols and diagnostics flow</li>
+                <li>Managed persistent memory and calibration data</li>
+            </ul>
+
+            <h3>MATTER | Pune</h3>
+            <p class="date">May 2023 – Apr 2025</p>
+            <ul>
+                <li>Developed RTOS-based BMS system</li>
+                <li>Implemented cell balancing algorithms</li>
+                <li>Handled scheduling and inter-task communication</li>
+                <li>Used Polyspace for code analysis</li>
+            </ul>
+
+            <h3>Capgemini (Volvo Trucks)</h3>
+            <p class="date">Apr 2022 – Apr 2023</p>
+            <ul>
+                <li>Worked on ECU software (Body & Security)</li>
+                <li>Performed V-cycle validation</li>
+                <li>Feature development and bug fixing</li>
+            </ul>
+
+            <h3>Symcore Technologies</h3>
+            <p class="date">Dec 2020 – Mar 2022</p>
+            <ul>
+                <li>Developed firmware for embedded systems</li>
+                <li>Implemented SPI, I2C, UART drivers</li>
+                <li>Python-based automation for testing</li>
+                <li>OTA updates via GSM/GPRS</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Delivered production-grade CAN bootloader</li>
+                <li>Improved BMS reliability using RTOS</li>
+                <li>Strong exposure to ECU validation lifecycle</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><b>B.E. (E&TC)</b> – 2020 | CGPA: 7.62</p>
+            <p><b>Diploma (E&TC)</b> – 2017 | 82.57%</p>
+        </section>
+
     </div>
+
 </div>
 
 </body>
