@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+}
+
+/* HEADER */
+.header {
+    margin: 20px auto;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    background: linear-gradient(135deg, #8b0035, #6a0f4c);
+    color: white;
+    border-radius: 15px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header p {
+    margin: 8px 0;
+}
+
+.header-right img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+/* MAIN LAYOUT */
+.main {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+/* LEFT */
+.left {
+    width: 35%;
+}
+
+.left h2 {
+    margin-bottom: 10px;
+}
+
+.left p {
+    line-height: 1.6;
+}
+
+/* TIMELINE CENTER */
+.timeline {
+    width: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 2px;
+    background: #8b0035;
+    height: 100%;
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    background: white;
+    border: 3px solid #8b0035;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}
+
+/* RIGHT */
+.right {
+    width: 60%;
+}
+
+.tag {
+    display: inline-block;
+    background: #8b0035;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.right p {
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
